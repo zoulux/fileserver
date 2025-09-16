@@ -15,7 +15,7 @@ go install github.com/zoulux/fileserver@latest
 安装完成后，您可以直接在命令行中使用 `fileserver` 命令：
 
 ```bash
-sendfile [参数]
+fileserver [参数]
 ```
 
 ### 2.2 常用参数
@@ -30,7 +30,7 @@ sendfile [参数]
 
 - 服务端
 ```bash
-./fileserver 
+fileserver 
 ```
 
 - 客户端
